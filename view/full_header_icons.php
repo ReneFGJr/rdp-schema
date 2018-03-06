@@ -13,7 +13,7 @@
 						</a>
 					</div>
                     <div class="col-md-4 text-center">
-                        <a href="newslettrs">
+                        <a href="newsletters">
                         <div class="full_icons_box">
                             <img width="80%" src="<?php echo get_site_url(); ?>/wp-content/themes/rdp-schema/img/icon_newsletter.png"><br>
                             <span class="full_icons_h">Newsletters</span>

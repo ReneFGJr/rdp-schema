@@ -6,15 +6,36 @@
  */
 get_header();
 ?>
+                
+            <?php
+            if ( have_posts() ) : while ( have_posts() ) : the_post();
+                   $feat_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+            ?>     
+            
+<div class="content-fluid full_banner">
+    <div class="row">
+        <div class="col-md-1 col-md-offset-1" style="border-right: 1px solid #fff;">
+            <h1 style="font-size: 400%;">&nbsp;</h1>
+        </div>
+        <div class="col-md-10">
+            <a href="<?php the_permalink(); ?>" style="color: white;"><h1><?php the_title(); ?></h1></a>
+            	<span class="post_author">
+                   <?php _e('Postado por:', ''); ?> <?php the_author_posts_link(); ?>
+                </span>
+                </br>
+                <!------------------- DATA ------------->   
+                <span class="small">
+                Em: <span class="post_data"><?php echo get_the_date(); ?></span>
+                </span>            
+        </div>        
+    </div>
+</div>
+
 <div class="container" style="margin-top: 100px;">
     <div class="row" class="border">
         <div class="col-md-9 border">
             <div id="posts">
-                <h2><?php the_title(); ?></h2>
-            <?php
-            if ( have_posts() ) : while ( have_posts() ) : the_post();
-                   $feat_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
-            ?>            
+                   
             <!------------------- POST ------------->
             <div class="posted">
                 <div class="post-meta">
