@@ -1,4 +1,8 @@
 <?php
+require ('view/full_header_content.php');
+require ('view/full_header_spots.php');
+require ('view/full_header_icons.php');
+?><?php
 /**
  * The template for displaying all pages
  *
@@ -18,20 +22,16 @@ get_header();
 <?php
 while (have_posts()) : the_post();
 
-    get_template_part('front-page-header', 'front-page-header');
+    get_template_part('page-post', 'page-post');
 
 endwhile; // End of the loop.
 ?>
+
 <section id="primary">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-			    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>
-			    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>
-			    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>
-			    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>
-			    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>
-			    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>
+
 				<?php
                 while (have_posts()) : the_post();
 

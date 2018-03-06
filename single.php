@@ -25,7 +25,7 @@ get_header();
                             <?php _e('Postado por:', ''); ?> <?php the_author_posts_link(); ?>
                         </span>
                         <br>
-                        <!------------------- DATA ------------->
+                        <!------------------- DATA ------------->   
                         <span class="post_data">
                         Em: <?php echo get_the_date(); ?>
                         </span>

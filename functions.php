@@ -22,9 +22,10 @@ add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
 
 /******************************** Initialize the update checker.**************************/
+//Initialize the update checker.
 require 'theme-updates/theme-update-checker.php';
 $example_update_checker = new ThemeUpdateChecker(
-    'example-theme',                                            //Theme folder name, AKA "slug". 
-    'http://w-shadow.com/files/example-theme-updates/info.json' //URL of the metadata file.
+    'RDP Brasil',                                 
+    'https://www.ufrgs.br/redd/_wordpress/info.json'
 );
 ?>

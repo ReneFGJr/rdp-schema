@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 text-center">
-					    <a href="quiz">
+					    <a href="https://pt.surveymonkey.com/r/dadosabertos">
 						<div class="full_icons_box">
 						    <img width="80%" src="<?php echo get_site_url(); ?>/wp-content/themes/rdp-schema/img/icon_quiz.png"><br>
 							<span class="full_icons_h">Questionário</span>
