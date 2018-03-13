@@ -50,13 +50,14 @@ body
     {
         font-size: 20px;
     }  
-.sidebar .widget, .sidebar ul
+.sidebar, .widget, .sidebar ul
     {
             list-style-type: none;
             color: red;
             margin: 0px;
             padding: 0px;
     } 
+
 /* NAV MENU */
 .navbar {
     padding-bottom: 5px;

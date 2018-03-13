@@ -19,9 +19,13 @@
 			</div>
 			<div class="col-md-2">
 				<img class="img-responsive" src="<?php echo get_site_url(); ?>/wp-content/themes/rdp-schema/img/logos/logo_rnp.png" height="100">
+				<br>
+				<img class="img-responsive" src="<?php echo get_site_url(); ?>/wp-content/themes/rdp-schema/img/logos/logo_ufrgs.png" height="70">
 			</div>
 			<div class="col-md-2">
 				<img class="img-responsive" src="<?php echo get_site_url(); ?>/wp-content/themes/rdp-schema/img/logos/logo_ibict.png" height="100">
+                <br>
+                <img class="img-responsive" src="<?php echo get_site_url(); ?>/wp-content/themes/rdp-schema/img/logos/logo_furg.png" height="70">
 			</div>
 
 			<div class="col-md-2 col-md-offset-2">

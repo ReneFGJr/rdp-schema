@@ -12,6 +12,8 @@ wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css
 wp_enqueue_style('styles', get_template_directory_uri() . '/css/styles.css', false, '0.17.08.09', 'all');
 wp_enqueue_script('jquery', get_template_directory_uri() . '/js/query.js', false, '3.2.1', true);
 wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.js', false, '3.3.7', true);
+wp_enqueue_script('rdp-schema', get_template_directory_uri() . '/js/rdp-schema.js', false, '1.0.0', true);
+
 plugins_url('myscript.js', __FILE__);
 
 /************************************************************** html ************************************/

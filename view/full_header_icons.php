@@ -3,8 +3,8 @@
 		<div class="col-md-12 text-center">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 text-center">
-					    <a href="https://pt.surveymonkey.com/r/dadosabertos">
+					<div class="col-md-4 text-center" id="icon_1" style="display: none;">
+					    <a href="https://pt.surveymonkey.com/r/dadosdepesquisa">
 						<div class="full_icons_box">
 						    <img width="80%" src="<?php echo get_site_url(); ?>/wp-content/themes/rdp-schema/img/icon_quiz.png"><br>
 							<span class="full_icons_h">Questionário</span>
@@ -12,7 +12,7 @@
 						</div>
 						</a>
 					</div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4 text-center" id="icon_2" style="display: none;">
                         <a href="newsletters">
                         <div class="full_icons_box">
                             <img width="80%" src="<?php echo get_site_url(); ?>/wp-content/themes/rdp-schema/img/icon_newsletter.png"><br>
@@ -21,7 +21,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4 text-center" id="icon_3" style="display: none;">
                         <a href="Contribute">
                         <div class="full_icons_box">
                             <img width="80%" src="<?php echo get_site_url(); ?>/wp-content/themes/rdp-schema/img/icon_contribua.png"><br>
@@ -35,4 +35,3 @@
 		</div>
 	</div>
 </div>
-
