@@ -4,7 +4,7 @@
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  * @link https://www.ufrgs.br/redd/
  * @package RDP-schema
- * @version 0.18.03.03
+ * @version 0.18.03.13
  */
 $cr = chr(13) . chr(10);
 /********************** styles and javascript **********************************************************/
@@ -18,6 +18,18 @@ plugins_url('myscript.js', __FILE__);
 
 /************************************************************** html ************************************/
 echo '<!DOCTYPE html>' . $cr;
+
+echo '
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99096257-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(\'js\', new Date());
+
+  gtag(\'config\', \'UA-99096257-2\');
+</script>
+';
 
 echo '<html ';
 language_attributes();
